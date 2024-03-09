@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Recipe from "./pages/recipe";
+import Recipe from "./pages/recipe/index";
 
 function App() {
   return (
