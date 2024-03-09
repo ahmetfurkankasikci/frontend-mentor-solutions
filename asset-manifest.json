@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor-solutions/static/css/main.abd951eb.css",
+    "main.js": "/frontend-mentor-solutions/static/js/main.c3fad341.js",
+    "static/media/image-omelette.jpeg": "/frontend-mentor-solutions/static/media/image-omelette.98c8ed59c5ae707e58ea.jpeg",
+    "index.html": "/frontend-mentor-solutions/index.html",
+    "main.abd951eb.css.map": "/frontend-mentor-solutions/static/css/main.abd951eb.css.map",
+    "main.c3fad341.js.map": "/frontend-mentor-solutions/static/js/main.c3fad341.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd951eb.css",
+    "static/js/main.c3fad341.js"
+  ]
+}
