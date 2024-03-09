@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Recipe from './pages/recipe';
 
 const router = createBrowserRouter([{
-  path: '/e',
+  path: '/recipe',
   element: <Recipe />
 }])
 const root = ReactDOM.createRoot(document.getElementById('root'));
