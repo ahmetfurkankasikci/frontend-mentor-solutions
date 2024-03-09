@@ -13,7 +13,7 @@ function Recipe() {
                         perfection, optionally filled with your choice of cheese, vegetables, or meats.
                     </div>
                     <div className="recipe-preparation">
-                        <h2 className="preparation-title"> Preparation time</h2>
+                        <h2 id="preparation-title"> Preparation time</h2>
                         <ul>
                             <li><strong>Total:</strong> Approximately 10 minutes</li>
                             <li><strong>Preparation:</strong> 5 minutes</li>
@@ -30,7 +30,7 @@ function Recipe() {
                     </ul>
                     <hr />
                     <h2>Instructions</h2>
-                    <ol className="Instructions-list">
+                    <ol className="instructions-list">
                         <li>
                             <strong>Beat the eggs:</strong>
                             In a bowl, beat the eggs with a pinch of salt and pepper until they are well
