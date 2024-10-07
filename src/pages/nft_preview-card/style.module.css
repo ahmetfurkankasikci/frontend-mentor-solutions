@@ -111,9 +111,7 @@
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
-.icon:hover {
-    display: block;
-}
+
 .img_container:hover .img_icon{
     display: block;
     cursor: pointer;
