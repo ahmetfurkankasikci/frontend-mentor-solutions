@@ -1,11 +1,145 @@
-.body{
+.line {
+    border-color: hsl(215, 32%, 27%);
+    border-width: 1px;
+}
+
+.body {
     background-color: hsl(217, 54%, 11%);
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Outfit", sans-serif;
+    color: hsl(215, 51%, 70%);
 }
+
 .card {
     background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
 }
+
+.column {
+    padding: 6% 7.5%;
+    display: grid;
+    gap: 20px;
+}
+.img_container{
+    position: relative;
+    transition: all 0.5s linear;
+}
+.img {
+    width: 100%;
+    border-radius: 10px;
+}
+.img_icon {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(178, 100%, 50%);
+    width: 100%;
+    height: 98%;
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: all 0.5s linear;
+}
+.icon {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 2s linear;
+}
+
+.title {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    letter-spacing: 0.015em;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_eth {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    font-size: 0.8rem;
+}
+
+.row_clock {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.avatar {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.creator_row {
+    display: flex;
+    align-items: center;
+}
+
+.creator_name {
+    color: white;
+}
+
+.creator_name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.icon:hover {
+    display: block;
+}
+.img_container:hover .img_icon{
+    display: block;
+    cursor: pointer;
+}
+.img_container:hover .icon{
+    display: block;
+    cursor: pointer;
+}
+@media (max-width: 575.98px) {
+    .card {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 45%;
+    }
+}
+@media (min-width: 1024px) {
+    .card {
+        width: 33%;
+    }
+  }
+  @media (min-width: 1440px) {
+    .card {
+        width: 24%;
+    }
+  }
