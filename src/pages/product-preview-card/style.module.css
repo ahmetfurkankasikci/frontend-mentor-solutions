@@ -111,7 +111,7 @@
     .card_content {
         display: grid;
         gap: 18px;
-        padding: 0 5% 8% 5%;
+        padding: 2% 5% 8% 5%;
     }
     .card {
         flex-direction: column;
