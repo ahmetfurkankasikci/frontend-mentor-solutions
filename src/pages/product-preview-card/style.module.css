@@ -135,7 +135,7 @@
 }
 @media (width: 1440px) {
     .card_img {
-        height: 50vh;
+        height: 52vh;
         width: 50%;
     }
 
@@ -143,10 +143,10 @@
         width: 40%;
     }
     .card_content {
-        width: 50%;
+        width: 48%;
     }
     .cart_button {
-        padding: 15px 0;
+        padding: 10px 0;
     }
 }
 @media (width: 2560px) {
