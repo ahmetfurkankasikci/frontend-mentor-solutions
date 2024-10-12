@@ -135,18 +135,18 @@
 }
 @media (width: 1440px) {
     .card_img {
-        height: 45vh;
-        width: 75%;
+        height: 50vh;
+        width: 50%;
     }
 
     .card {
+        width: 40%;
+    }
+    .card_content {
         width: 50%;
     }
     .cart_button {
         padding: 15px 0;
-    }
-    .description {
-       padding-right: 10%;
     }
 }
 @media (width: 2560px) {
