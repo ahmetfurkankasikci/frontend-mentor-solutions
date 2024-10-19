@@ -1,0 +1,108 @@
+.body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 55%;
+    display: flex;
+    border-radius: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedan {
+    width: 33%;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    padding: 5%;
+    display: grid;
+    gap: 25px;
+}
+
+.suv {
+    width: 33%;
+    background-color: hsl(184, 100%, 22%);
+    padding: 5%;
+    display: grid;
+    gap: 25px;
+}
+.title {
+    text-transform: uppercase;
+    color: white;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.description {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.6rem;
+    padding-bottom: 40px;
+}
+.luxury {
+    width: 34%;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+    padding: 5%;
+    display: grid;
+    gap: 25px;
+}
+.button {
+    border: 1px solid transparent;
+    background-color: hsl(0, 0%, 95%);
+    width: 70%;
+    border-radius: 50px;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: 600;
+}
+.luxury_color {
+    color: hsl(179, 100%, 13%);
+}
+.sedan_color {
+    color: hsl(31, 77%, 52%);
+}
+.suv_color {
+    color: hsl(184, 100%, 22%);
+}
+.button:hover {
+    border-color: hsl(0, 0%, 95%);
+    background-color: inherit;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width: 769px) {
+    .body {
+        align-items: start;
+        padding: 20px 0;
+    }
+    .card {
+        width: 80%;
+        flex-direction: column;
+        height: 60%;
+        padding-bottom: 10px;
+    }
+    .suv{
+        width: 100%;
+        padding: 15%;
+    }
+    .luxury {
+        border-radius: 0 0 10px 10px;
+        width: 100%;
+        padding: 15%;
+    }
+    .sedan {
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        padding: 15%;
+    }
+}
+@media (width: 1024px) {
+    .card {
+        width: 80%;
+    }
+}
