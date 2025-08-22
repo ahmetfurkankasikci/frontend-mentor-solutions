@@ -1,0 +1,173 @@
+.body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: #E6EFF6;
+    /* Sayfanın açık mavi arka planı */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.pricing_card {
+    width: 100%;
+    max-width: 650px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0, 81, 171, 0.15);
+    /* Gölgelendirme */
+    overflow: hidden;
+    /* Köşelerin yuvarlaklığını korumak için */
+    display: flex;
+    flex-direction: column;
+}
+
+.card_top {
+    padding: 40px 35px;
+}
+
+.card_top h1 {
+    color: #2AB2AF;
+    /* Turkuaz başlık */
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.card_top .guarantee {
+    color: #C0DF34;
+    /* Sarı-yeşil garanti yazısı */
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+.card_top p {
+    color: #98A6BD;
+    /* Gri açıklama metni */
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.card_bottom {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    flex-wrap: wrap;
+    /* Mobil cihazlar için alt alta geçişi sağlar */
+}
+
+/* Alt Bölüm - Sol Taraf (Abonelik) */
+.bottom_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2AB2AF;
+    /* Turkuaz arka plan */
+    padding: 40px 35px;
+    flex: 1;
+    /* Esnek kutu modelinde kaplayacağı alan */
+    min-width: 250px;
+    /* Esnek yapıda minimum genişlik */
+}
+
+.bottom_left h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.price_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.price_period {
+    margin-left: 12px;
+    opacity: 0.7;
+}
+
+.bottom_left .access_info {
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.signup_button {
+    display: block;
+    padding: 15px;
+    background-color: #C0DF34;
+    /* Sarı-yeşil buton rengi */
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.signup_button:hover {
+    background-color: #A9C42D;
+    /* Butonun üzerine gelinceki renk */
+}
+
+/* Alt Bölüm - Sağ Taraf (Neden Biz?) */
+.bottom_right {
+    background-color: #4ABEBD;
+    /* Daha açık turkuaz arka plan */
+    padding: 40px 35px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.bottom_right h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.bottom_right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    opacity: 0.8;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.bottom_right ul li {
+    margin-bottom: 4px;
+}
+
+/* Mobil Cihazlar için Medya Sorgusu */
+@media (max-width: 600px) {
+    .card_top {
+        padding: 40px 25px;
+    }
+
+    .bottom_left {
+        padding: 40px 25px;
+    }
+
+    .bottom_right {
+        padding: 40px 25px;
+    }
+
+    .card_bottom {
+        flex-direction: column;
+        /* Küçük ekranlarda alt bölümdeki kutuları alt alta dizer */
+    }
+}
