@@ -5,6 +5,7 @@ import ColumnPreview from "./pages/column-preview-card";
 import NftCard from "./pages/nft_preview-card";
 import BentoGrid from "./pages/bento-grid";
 import SinglePrice from "./pages/single-price-grid";
+import ProfileCard from "./pages/profile-card";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/bento-grid" element={<BentoGrid />} />
         <Route path="/column" element={<ColumnPreview />} />
         <Route path="/single-price" element={<SinglePrice />} />
+        <Route path="/profile-card" element={<ProfileCard />} />
         <Route path="/" element={<Recipe />} />
       </Routes>
     </>
